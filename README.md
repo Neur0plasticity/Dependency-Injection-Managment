@@ -1,4 +1,4 @@
-# Direct-Injection-Managment
+# Dependency-Injection-Managment
 
 
 Stages  ... event emmiter
