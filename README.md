@@ -1,10 +1,14 @@
 # Dependency-Injection-Managment    
 
-(UNFINISHED)
+(v0 semi-finished)
 
 // TODO LIST //
 
-* v0 ... create module organization template
+* v0 ... create basic module organization template
+** minimal functionality.
+** segregates lists
+** importer allows single record per import
+** instances demand stringed aliases as tracking ID
 
 * v1 ... integrate 3rd party modules 
 ** make code scraper, 
@@ -17,7 +21,7 @@
 **** Ideally, DIM is a singleton.
 
 
-Stages  ... event emmiter .. method::on
+Stages  ... event emmiter .. method::on                     (UNPROGRAMMED)
 
     * pre       before event cb
     * dur       during event cb
@@ -48,7 +52,7 @@ File Sys Loaded Modules     (Uninitiated Class)
         DIM.import('pcs', 'process');
         DIM.import('./modules/server/main.js');
 
-        ???DIM.export()???
+        DIM.export()
 
 
 Initiated Modules           (Instance)
