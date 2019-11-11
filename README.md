@@ -1,7 +1,23 @@
-# Dependency-Injection-Managment
+# Dependency-Injection-Managment    
+
+(UNFINISHED)
+
+// TODO LIST //
+
+* v0 ... create module organization template
+
+* v1 ... integrate 3rd party modules 
+** make code scraper, 
+** replace all requires with wrapper
+** detect circular dependency
 
 
-Stages  ... event emmiter
+
+
+**** Ideally, DIM is a singleton.
+
+
+Stages  ... event emmiter .. method::on
 
     * pre       before event cb
     * dur       during event cb
@@ -24,7 +40,7 @@ Sub-Methods
 
 File Sys Loaded Modules     (Uninitiated Class)
 
-    syntax: DIM.require('<alias key>','<module file path>')
+    syntax: DIM.import('<alias key>','<module file path>')
 
     examples:
 

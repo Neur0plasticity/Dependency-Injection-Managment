@@ -1,0 +1,25 @@
+{
+  "name": "dependency-injection-managment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neur0plasticity/Dependency-Injection-Managment.git"
+  },
+  "author": "djtinkers365",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neur0plasticity/Dependency-Injection-Managment/issues"
+  },
+  "homepage": "https://github.com/Neur0plasticity/Dependency-Injection-Managment#readme",
+  "dependencies": {
+    "dependency-graph": "^0.8.0",
+    "dependency-tree": "^7.0.2",
+    "find-requires": "^1.0.0",
+    "inversify": "^5.0.1"
+  }
+}
